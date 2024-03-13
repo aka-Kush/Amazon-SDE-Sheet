@@ -1,4 +1,14 @@
 // https://leetcode.com/problems/valid-parentheses/description/
+
+/*
+Logic:
+    - Create a stack
+    - Push any opening brackets to stack
+    - Check if stack is empty and return
+    - If next element is closing bracket, check if it has matching opening bracket on top of stack. If yes then pop the element otherwise return false
+    - finally return if stack is empty or not
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 bool isMatching(char a, char b){
