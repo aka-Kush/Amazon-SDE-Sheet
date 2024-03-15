@@ -2,6 +2,7 @@
 
 /*
 Logic:
+    - Approach: Kadane's Algorithm
     - Create two variable to keep track of carrying sum and maximum int
     - Don't carry any < 0 value to sum, if value is <0 make the sum 0
     - Keep adding elements to sum
